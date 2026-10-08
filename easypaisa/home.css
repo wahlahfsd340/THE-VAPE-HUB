@@ -1,0 +1,150 @@
+.imglogo img {
+  height: 7%;
+  width: 7%;
+}
+
+.search-box {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 4px 4px 4px 15px;
+  width: 300px;
+  transition: 0.3s;
+  margin: 20px 0 0 200px;
+}
+
+.search-box:focus-within {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 15px;
+}
+
+.search-box button {
+  border: none;
+  background: #3b82f6;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 75px;
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 0%;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content-below {
+  clear: both;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+}
+.cards-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 75px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 0%;
+overflow: hidden;
+  width: fit-content;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15 {
+  padding: 10px;
+  box-shadow: 0 0 30px 1px black;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img,
+.item5 img,
+.item6 img,
+.item7 img,
+.item8 img,
+.item9 img,
+.item10 img,
+.item11 img,
+.item12 img,
+.item13 img,
+.item14 img,
+.item15 img {
+  height: 70%;
+}
+
+.hubs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 50%;
+}
+
+.hubs > div {
+  flex: 1 0 50%; 
+  box-sizing: border-box;
+}
+
+.hubs img {
+  width: 100%;
+ margin: 10px;
+  height: auto;
+  display: block;
+}
+
